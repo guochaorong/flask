@@ -1,0 +1,13 @@
+{% extends 'bootstrap/base.html' %}
+
+{# 导入快速渲染表单的宏 #}
+{% from 'bootstrap/wtf.html' import quick_form %}
+
+{% block title %}bootstrap渲染表单类{% endblock %}
+
+{% block content %}
+  <div class="container">
+        {# 在合适的位置渲染表单 #}
+              {{ quick_form(form) }}
+                </div>
+{% endblock %}

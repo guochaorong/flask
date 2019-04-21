@@ -1,0 +1,36 @@
+ * Serving Flask app "test.py" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8012/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 266-453-085
+220.181.102.181 - - [21/Apr/2019 16:39:57] "GET /ocr HTTP/1.1" 200 -
+220.181.102.181 - - [21/Apr/2019 16:40:01] "GET /asr HTTP/1.1" 200 -
+ * Serving Flask app "test.py" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8012/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 266-453-085
+220.181.102.181 - - [21/Apr/2019 16:41:55] "GET /asr HTTP/1.1" 200 -
+220.181.102.181 - - [21/Apr/2019 16:41:56] "GET /asr HTTP/1.1" 200 -
+ * Detected change in '/disk1/guocr/new_test/flask_mock/test.py', reloading
+utf-8
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 266-453-085
+ * Serving Flask app "test.py"
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:8014/ (Press CTRL+C to quit)
+220.181.102.181 - - [21/Apr/2019 22:31:39] "GET /asr HTTP/1.1" 200 -
+220.181.102.181 - - [21/Apr/2019 22:31:39] "GET /favicon.ico HTTP/1.1" 404 -
+220.181.102.181 - - [21/Apr/2019 22:32:05] "GET /ocr HTTP/1.1" 200 -
